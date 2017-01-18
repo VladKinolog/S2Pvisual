@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+
+
+<?import javafx.scene.text.Text?>
+<GridPane alignment="center" hgap="10" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.112" fx:controller="sample.Controller">
+
+      <Text  fx:id="text" text="значение" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+
+      <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="0" GridPane.rowIndex="1" onAction="#onClickB1"/>
+      <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="1" onAction="#onClickB2"/>
+
+</GridPane>
